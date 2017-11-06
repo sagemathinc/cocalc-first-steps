@@ -10,4 +10,6 @@ sage-plots-for-latex.tex/
 *.sagetex.sage.py
 *.sagetex.scmd
 *.sagetex.sout
+*.sagetex.scmd.tmp
+*.sagetex.sout.tmp
 *.synctex.gz
