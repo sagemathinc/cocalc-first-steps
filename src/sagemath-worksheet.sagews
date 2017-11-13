@@ -38,41 +38,41 @@ show(z)
 ︡957de261-c398-4052-aed4-4634551a1869︡
 ︠4e6aff2c-5aca-41c7-b12a-0ee9189a7265i︠
 %md
-... and evaluate it
-︡488f996f-381c-42b6-950b-087763fdea74︡{"done":true,"md":"... and evaluate it"}
+... and evaluate it at $x=4$ and $y=2$
+︡488f996f-381c-42b6-950b-087763fdea74︡{"done":true,"md":"... and evaluate it at $x=4$ and $y=2$"}
 ︠345d3083-16fe-43dc-817d-d5998454fc42s︠
 z(x = 4, y = 2)
-︡50ffb48f-7ed7-43c5-8489-2000f278bfc5︡
+︡8504167b-bd39-4886-ba97-e398aab24933︡
 ︠c2733ab2-0b8f-42f5-9063-020f5104d935i︠
 %md
 Next, we define a function "f(x)"
 ︡b3492172-664e-4ef6-8fc2-a4f0e72cd8be︡{"done":true,"md":"... define a function \"f(x)\""}
 ︠ee18aca6-9f03-4c13-a2a5-202aefebdb07s︠
 f(x) = 2 * x + cos(x)
-︡dce82a21-2f00-4399-b9c8-9df9a6afd0e8︡
+︡bca867ed-f159-4825-8269-ec87a7261c98︡{"done":true}︡
 ︠4f5c6f13-bdb1-4318-8638-04047317f211i︠
 %md
 ... evaluate it at $4 \pi$
 ︡78c68ed9-d961-4567-9e04-a1a3759f69f6︡{"done":true,"md":"... evaluate it at $4 \\pi$"}
 ︠e875eb80-222e-4c3d-8650-9bd2446acf77s︠
 f(4 * pi)
-︡8068bcf2-09e1-42b7-af83-789044504dcf︡
-︠79566482-1ecb-4e3a-89ef-c15d4ffba9f0︠
+︡a0e069cc-eea2-405f-9bc5-85b2a17870d2︡
+︠79566482-1ecb-4e3a-89ef-c15d4ffba9f0i︠
 %md
 ... and plot it for $x \in \left[-10, \, 10\right]$
-︡191627d4-6984-4bea-a5ec-62e9919d7c31︡
+︡191627d4-6984-4bea-a5ec-62e9919d7c31︡{"done":true,"md":"... and plot it for $x \\in \\left[-10, \\, 10\\right]$"}
 ︠334b6bd2-fedb-40d6-9d61-3ee8f4e91f04s︠
 plot(f, (x, -10, 10))
-︡713e03d7-ff5b-4dd0-b888-20f025110d9d︡
-︠fc5b32b6-d4ff-46df-be5b-0c831877074a︠
+︡ac934e45-211d-4e4e-a022-b4a4f9f17082︡
+︠fc5b32b6-d4ff-46df-be5b-0c831877074ai︠
 %md
 **Task**: where is $f(x) = 0$ ?
 
 Unfold the next input block to see the answer!
-︡1ba1ac8a-e154-41d5-b0ea-3d6e96ae451e︡
-︠fcc6f3f1-74d3-439b-9c64-f05733cc6207si︠
+︡1ba1ac8a-e154-41d5-b0ea-3d6e96ae451e︡{"done":true,"md":"**Task**: where is $f(x) = 0$ ?\n\nUnfold the next input block to see the answer!"}
+︠fcc6f3f1-74d3-439b-9c64-f05733cc6207s︠
 solve(f(x), x)
-︡a7b60d30-9abc-4b6d-bfd9-ec52661df9c3︡
+︡1d6da83d-32f7-4a5f-bcd9-82ed5798337b︡
 ︠67252b91-afe3-4cd6-a531-36d1c8d8a896i︠
 %md
 Next, let's go back to [first-steps.tasks](first-steps.tasks)
