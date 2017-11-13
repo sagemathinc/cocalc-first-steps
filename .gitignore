@@ -1,6 +1,6 @@
 first-steps.term
 src/*sage-jupyter2
-src/sage-plots-for-latex.tex/
+src/sage-plots-for-latex-document.tex/
 src/.*.tex.lock
 src/*.aux
 src/*.fdb_latexmk

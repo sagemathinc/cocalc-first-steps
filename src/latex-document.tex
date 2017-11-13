@@ -1,5 +1,38 @@
 \documentclass{article}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hello, this is the start of a LaTeX document
+%
+% First rule: everything after a percent-sign is a comment.
+% It is ignored and does not show up in the final PDF document.
+%
+% Second rule: everything that starts with a backslash \ is a command.
+% This is used for everything!
+% * \begin{document} signals where the real meat of the file starts (after the preemble)
+% * \section and \subsection structure the document
+% * and much more ...
+%
+% Third rule: In between the commands, or inside the command's arguments in {...} you write text.
+% You can make arbitrary single linebreaks, which will not break apart a paragraph.
+% Two or more linebreaks signal the start of a new paragraph.
+%
+% Formulas: LaTeX is most famous for writing formulas. They're inside of $...$ or
+% \begin{equation}
+%  ...
+% \end{equation}
+% environments.
+%
+% Why? Well, this might seem overly complex, but in the end it is also very precise.
+% You can define exactly what each part of the document should be and LaTeX formats it for you.
+%
+% Got interested? Here is a link to an online LaTeX book explaining more about all this:
+% https://en.wikibooks.org/wiki/LaTeX
+%
+% Now, skim over the preemble and find the \begin{document} command
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % set font encoding for PDFLaTeX or XeLaTeX
 \usepackage{ifxetex}
 \ifxetex
@@ -18,6 +51,8 @@
 % documentation: http://mirrors.ctan.org/macros/latex/contrib/sagetex/sagetexpackage.pdf
 \usepackage{sagetex}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 \section{First Steps}
@@ -72,5 +107,8 @@ It is also possible to create a plot:
 \sageplot[width=.5\textwidth]{plot(sin(x) * cos(3*x), (x, -10, 10))}
 \end{center}
 
+% this is the last command of the document.
 \end{document}
+
+%  Do NOT edit past the last command!
 

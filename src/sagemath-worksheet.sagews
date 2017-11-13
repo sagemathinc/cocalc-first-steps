@@ -14,10 +14,10 @@ This is an interactive document for running calculation online.
 * On the left side of each block there is a small triangle. It hides or reveals input and output blocks.
   This can also be accomplished by placing the cursor inside a block and clicking on the "out" toggle button in the menu.
 ︡a315d1a9-b55a-4688-9ec5-818c3b841667︡{"done":true,"md":"# SageMath Worksheets in CoCalc\n\nThis is an interactive document for running calculation online.\n\n\n* First, notice the additional button bar below the project specific bar. The \"Play\" button is for evaluating a block.\n* Each **block of consecutive lines** can either be input of code which is run by the interpreter or some text formatted via markdown.\n* A block is **evaluated** by placing the cursor into it and either clicking on the **\"Play\" button** or by simultaneously pressing the `Shift`+`Return` keys.\n* New blocks are inserted at the bottom or when clicking on the delimiter line inbetween two blocks.\n* The first line of each input block signals the type of cell: e.g. `%md` for markdown, `%r` for R, `%python3` for Python3 or `%sage` for SageMath.\n* For the evaluation the default mode is usually set to SageMath, but it can be customized by running `%default_mode <mode>`.\n* On the left side of each block there is a small triangle. It hides or reveals input and output blocks.\n  This can also be accomplished by placing the cursor inside a block and clicking on the \"out\" toggle button in the menu."}
-︠f1d75f3e-a59c-4c2a-8f81-f9b269cbdd6c︠
+︠f1d75f3e-a59c-4c2a-8f81-f9b269cbdd6ci︠
 %md
 Let's start with a simple calculation:
-︡f4d98283-22a5-46c9-8fe2-d36344042b90︡
+︡f4d98283-22a5-46c9-8fe2-d36344042b90︡{"done":true,"md":"Let's start with a simple calculation:"}
 ︠2e47e21a-ac67-4c28-acc8-8fb586366598s︠
 2873648273648 * 293847293849723847
 ︡d7cfe57a-b0dc-4ddb-9f22-cd28e0f5aa9d︡
