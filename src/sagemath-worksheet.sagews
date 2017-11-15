@@ -70,8 +70,8 @@ plot(f, (x, -10, 10))
 
 Unfold the next input block to see the answer!
 ︡1ba1ac8a-e154-41d5-b0ea-3d6e96ae451e︡{"done":true,"md":"**Task**: where is $f(x) = 0$ ?\n\nUnfold the next input block to see the answer!"}
-︠fcc6f3f1-74d3-439b-9c64-f05733cc6207s︠
-solve(f(x), x)
+︠fcc6f3f1-74d3-439b-9c64-f05733cc6207i︠
+f.find_root(-10, 10)
 ︡1d6da83d-32f7-4a5f-bcd9-82ed5798337b︡
 ︠67252b91-afe3-4cd6-a531-36d1c8d8a896i︠
 %md
